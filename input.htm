@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Analog Clock on HTML5 Canvas and JavaScript</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<input id="leninput"><br><br>
+<input id="anginput"><br><br>
+<button onclick="getdata()"> Submit </button><br><br>
+
+   
+</body>
+
+<script>
+function getdata() {
+		var ang=document.getElementById("anginput").value;
+		var len=document.getElementById("leninput").value;
+		document.write(" Angle = "+ ang+"   Length = "+len);
+		}
+</script>
+</html>
